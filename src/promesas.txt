@@ -1,0 +1,21 @@
+Podemos cumplir la promesa entonces usamos resolve
+Podemos romper la promesa entonces usamos reject
+Podemos esperar a que se cumple entonces la promesa esría pendiente
+
+El tipo de dato que se pone en la promesa Promise<typedata> debe coincidir con el dato que se le dará a 'resolve'
+
+Usamos then para tratar a la promesa cuando se cumple
+Usamos catch para tratar cuando la promesa se romper
+
+const promesa = (arg1: type, arg2: type) => {
+    return new Promise<type>((resolve, reject) => {
+        ...
+    })
+}
+
+
+___________________________
+
+
+mongodb
+

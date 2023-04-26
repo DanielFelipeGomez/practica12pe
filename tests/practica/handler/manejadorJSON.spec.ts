@@ -2,10 +2,10 @@
 
 import 'mocha';
 import {expect} from 'chai';
-import {ManejadorJSON} from "../../src/handler/manejadorJSON.js";
+import {ManejadorJSON} from "../../../src/practica/handler/manejadorJSON.js";
 import fs from 'fs';
-import { TipoFunko } from "../../src/enumerables/tipo_funko_enum.js";
-import { GeneroFunko } from "../../src/enumerables/genero_funko_enum.js";
+import { TipoFunko } from "../../../src/practica/enumerables/tipo_funko_enum.js";
+import { GeneroFunko } from "../../../src/practica/enumerables/genero_funko_enum.js";
 import chalk from 'chalk';
 import { fstat } from 'fs';
 
